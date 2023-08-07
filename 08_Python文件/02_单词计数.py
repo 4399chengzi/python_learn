@@ -2,10 +2,10 @@
 演示单词计数
 """
 
-# with open('测试.txt', 'r', encoding='utf-8') as f:
+# with open('bill.txt', 'r', encoding='utf-8') as f:
 #     print(f.read().count('a'))
 
-with open('测试.txt', 'r', encoding='utf-8') as f:
+with open('bill.txt', 'r', encoding='utf-8') as f:
     count = 0
     for line in f:
         words = line.strip().split(' ')

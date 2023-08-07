@@ -2,7 +2,7 @@
 演示文件的读取
 """
 
-f = open('测试.txt', 'r', encoding='utf-8')
+f = open('bill.txt', 'r', encoding='utf-8')
 
 print(f)
 
@@ -23,5 +23,5 @@ for lin in f:
 
 f.close()
 
-with open('测试.txt','r',encoding='utf-8') as f:
+with open('bill.txt', 'r', encoding='utf-8') as f:
     print(f.read())
